@@ -1,0 +1,45 @@
+/* src/components/TopBar.css */
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px 20px;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-right: 40px; /* Add left margin */
+  font-size: 24px; /* Adjust the font size to make the icons bigger */
+}
+
+.social-links a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+.social-links a:hover {
+  color: inherit; /* Inherit the color from the parent element */
+  transform: scale(1.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.logo img.nacho-logo {
+  height: 25px; /* Adjust size as needed */
+  width: 25px; /* Set width to match height */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.logo h2 {
+  margin: 0;
+}
