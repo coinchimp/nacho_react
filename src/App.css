@@ -20,20 +20,78 @@ body, html {
   background-color: #f4f4f4;
 }
 
+.toggle-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem; /* Increase font size */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
+
 .bottom-section {
   padding: 20px;
-  background-color: #333;
+  background-color: #231F20;
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-section .column {
+  flex: 1;
+  text-align: center;
+  font-size: 22px;
+}
+
+.bottom-section .columnDisclaimer {
+  flex: 1;
+  text-align: right;
+  font-size: 10px;
+}
+
+.bottom-section .centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bottom-section .social-links {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
+.bottom-section .social-links a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+.bottom-section .social-links a:hover {
+  color: inherit; /* Inherit the color from the parent element */
+  transform: scale(1.1);
+}
+
+.bottom-section .whitepaper-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.bottom-section .whitepaper-link:hover {
+  text-decoration: underline;
+}
 .social-links {
   display: flex;
   gap: 10px;

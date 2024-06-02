@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color: #231F20;
   padding: 10px 20px;
   color: white;
 }
@@ -35,8 +35,8 @@
 }
 
 .logo img.nacho-logo {
-  height: 25px; /* Adjust size as needed */
-  width: 25px; /* Set width to match height */
+  height: 30px; /* Adjust size as needed */
+  width: 30px; /* Set width to match height */
   margin-right: 10px; /* Adjust spacing as needed */
 }
 
