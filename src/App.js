@@ -82,7 +82,7 @@ function App() {
       <p>To be determined. Once the KRC20 standard is live on the Kaspa Mainnet, it is highly likely we will see a DEX built and deployed. We will need to wait and see.</p>
 
       <h2>🤝 Does Nacho receive donations?</h2>
-      <p>kaspa:qrt3lf6jejjdzwtnvlr3z35w7j6q66gt49a7grdwsq98nmlg5uz97whuf8qfr</p>
+      <img src="donation_wallet.png" alt="Nacho the 𐤊at Donation wallet" width={300} height={300}/>
     </div>
         )}
       </div>            
