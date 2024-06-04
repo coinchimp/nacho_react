@@ -15,7 +15,7 @@ const TopBar = () => {
       <div className="whitepaper-box" >
       &nbsp;&nbsp;
         <a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" className="whitepaper-link" target="_blank" rel="noopener noreferrer">
-              [ whitepaper ]
+              [whitepaper]
         </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <div className="social-links">
