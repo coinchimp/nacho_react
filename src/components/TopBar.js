@@ -12,6 +12,12 @@ const TopBar = () => {
         <img src={nachoLogo} alt="Nacho Logo" className="nacho-logo" />
         <h2>Nacho the 𐤊at</h2>
       </div>
+      <div className="whitepaper-box" >
+      &nbsp;&nbsp;
+        <a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" className="whitepaper-link" target="_blank" rel="noopener noreferrer">
+              [ whitepaper ]
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
       <div className="social-links">
         <a href="https://discord.gg/EB8VvA9DVf" target="_blank" rel="noopener noreferrer">
           <FaDiscord />

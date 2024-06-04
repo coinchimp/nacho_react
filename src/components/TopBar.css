@@ -43,3 +43,20 @@
 .logo h2 {
   margin: 0;
 }
+
+.whitepaper-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allows the box to expand and take up available space */
+}
+
+.whitepaper-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.whitepaper-link:hover {
+  text-decoration: underline;
+}

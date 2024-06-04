@@ -22,25 +22,30 @@ function App() {
             Nacho the 𐤊at
           </h1>
           <p>
-            <span className={styles.highlight}>Join our community</span>, in making <span className={styles.highlight}>Nacho the 𐤊at</span> the perfect example of fairness and the true spirit of <span className={styles.highlight}>Kaspa and KRC20!</span>
+            <span className={styles.highlight}> Inspired by Shai Wyborski's pet cat Nacho</span>
           </p>
         </div>
       </div>
       <div className={styles.mainFeatures}>
         <p>
-          Fair Launch &nbsp;   |&nbsp;    No Presale&nbsp;    | &nbsp;  No Pre-Allocation &nbsp;  | &nbsp; Community Driven&nbsp;   | &nbsp;  Kaspa KRC20 Standards
+          Fair Launch &nbsp;   |&nbsp;    No Pre-Allocation&nbsp;    | &nbsp;  No Presale &nbsp;  | &nbsp; No Taxes  &nbsp; |  &nbsp; Community Funded
         </p>  
       </div>
       <div className={styles.featuresSection}>
         <div className={styles.featuresText}>
-          <h2>Launch Conditions</h2>
-          <ul>
-            <li><span className={styles.highlight}>Community Driven:</span> Our decisions are based on community discussions. Join our Discord to be part of it.</li>
-            <li><span className={styles.highlight}>Fair Launch:</span> No team member gets tokens in advance. Everyone can mint their tokens according to the KRC20 standard, ensuring equal opportunities for all.</li>
-            <li><span className={styles.highlight}>Transparent Tokenomics:</span> Maximum supply and other details are being discussed as a community in Discord. Join us!   <span className={styles.highlight2}><a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" target="_blank" rel="noopener noreferrer">[whitepaper]</a></span> </li>
-          </ul>
-        </div>
+          <p>So,<span className={styles.highlight}> what is Nacho?</span> Nacho is the name of the cat owned by Shai Wyborski, a member of the core team behind Kaspa. This project pays homage to Shai, and his cat Nacho and was created to champion the amazing work of the Kasplex team in creating the KRC20 token standard.</p>
+          <p>Nacho is more than just a memecoin, it is proof of what is capable on the Kaspa network. With the Kasplex protocol coming soon, it’s time for Nacho to set the standard for tokens on Kaspa.
+          </p>
+        </div>    
       </div>
+      <div className="social-button-section" style={{ textAlign: 'center', margin: '20px 0' }}>
+        <button className="toggle-button" onClick={() => window.open("https://discord.gg/EB8VvA9DVf", "_blank")}>
+          Join Discord
+        </button>
+        <button className="toggle-button" onClick={() => window.open("https://x.com/NachoWyborski", "_blank")}>
+          Follow on Twitter
+        </button>
+      </div>      
       <div className="middle-section">
       <div className={styles.faqSection}>
       <h2>❓ What is KRC-20?</h2>

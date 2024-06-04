@@ -87,6 +87,7 @@ body, html {
   display: block;
   margin-top: 10px;
   font-size: 15px;
+  text-align: right;
 }
 
 .bottom-section .whitepaper-link:hover {
@@ -106,4 +107,30 @@ body, html {
 .social-links a:hover {
   color: inherit; /* Inherit the color from the parent element */
   transform: scale(1.1);
+}
+
+.social-button-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-button-section button {
+  margin: 0 20px; /* Increase spacing between buttons */
+}
+
+.toggle-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 10px; /* Ensure spacing below buttons */
+}
+
+.toggle-button:hover {
+  background-color: #444;
+  transform: scale(1.05);
 }
