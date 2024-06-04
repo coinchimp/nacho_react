@@ -37,7 +37,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <button className="px-4 py-3 rounded-full border-2 border-black flex items-center">
+            <button className="px-4 py-3 hidden rounded-full border-2 border-black md:flex items-center">
                 Whitepaper
             </button>
 
