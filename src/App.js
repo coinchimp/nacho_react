@@ -111,7 +111,7 @@ function App() {
               </a>
             </div>
             <a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" className="whitepaper-link" target="_blank" rel="noopener noreferrer">
-              [ whitepaper ]
+              [whitepaper]
             </a>
           </div>
         </div>
