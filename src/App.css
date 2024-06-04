@@ -118,6 +118,16 @@ body, html {
   margin: 0 20px; /* Increase spacing between buttons */
 }
 
+.social-button-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-button-section button {
+  margin: 10px 10px; /* Adjusted for better spacing on all devices */
+  min-width: 120px; /* Ensures buttons have a minimum width */
+}
+
 .toggle-button {
   background-color: black;
   color: white;
@@ -127,10 +137,28 @@ body, html {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  margin-bottom: 10px; /* Ensure spacing below buttons */
+  display: inline-block; /* Ensures buttons are in line */
 }
 
 .toggle-button:hover {
   background-color: #444;
   transform: scale(1.05);
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .social-button-section {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    align-items: center;
+  }
+
+  .social utton-section button {
+    margin: 10px auto; /* Center buttons with margin on top and bottom */
+    display: block; /* Stack buttons */
+  }
+
+  .toggle-button {
+    width: 100%; /* Full width buttons on small screens */
+    padding: 12px 0; /* Adjust padding for better touch accessibility */
+  }
 }
