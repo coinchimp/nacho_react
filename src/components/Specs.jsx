@@ -3,21 +3,22 @@ import React from 'react'
 const Specs = () => {
     return (
         <div>
-            <div className="md:flex justify-between py-8 px-12 hidden">
-                <p className="font-semibold">Fair Launch</p>
-                <p className="font-semibold">No Pre-Allocation</p>
-                <p className="font-semibold">No Presale</p>
-                <p className="font-semibold">No Taxes</p>
-                <p className="font-semibold">Community Funded</p>
+            <div className="md:flex justify-center space-x-8 py-8 px-12 hidden">
+                <p className="text-xl">Fair Launch</p>
+                <p>|</p>
+                <p className="text-xl">No Pre-Allocation</p>
+                <p>|</p>
+                <p className="text-xl">No Presale</p>
+                <p>|</p>
+                <p className="text-xl">No Taxes</p>
+                <p>|</p>
+                <p className="text-xl">Community Funded</p>
             </div>
-            <div className="md:hidden justify-between pt-8 pb-4 px-12 flex">
-                <p className="font-semibold">Fair Launch</p>
-                <p className="font-semibold">No Pre-Allocation</p>
-                <p className="font-semibold">No Presale</p>
-            </div>
-            <div className="md:hidden justify-between pb-8 px-12 flex">
-                <p className="font-semibold">No Taxes</p>
-                <p className="font-semibold">Community Funded</p>
+            <div className="md:hidden py-4">
+                <p className="text-center text-xl">
+                    Fair Launch | No Pre-Allocation | No Presale | No Taxes |
+                    Community Funded
+                </p>
             </div>
         </div>
     )

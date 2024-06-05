@@ -9,8 +9,8 @@ const About = () => {
             data-aos="fade-up"
         >
             <div className="mt-8 md:mt-0">
-                <p className="text-2xl">
-                    <span className="font-bold text-3xl mr-3">
+                <p className="text-3xl">
+                    <span className="font-bold text-4xl mr-3">
                         So, what is Nacho?
                     </span>
                     Nacho is the name of the cat owned by Shai Wyborski, a
@@ -19,7 +19,7 @@ const About = () => {
                     champion the amazing work of the Kasplex team in creating
                     the KRC20 token standard.
                 </p>
-                <p className="text-2xl mt-4">
+                <p className="text-3xl mt-4">
                     Nacho is more than just a memecoin, it is proof of what is
                     capable on the Kaspa network. With the Kasplex protocol
                     coming soon, it’s time for Nacho to set the standard for
