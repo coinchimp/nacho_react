@@ -4,20 +4,20 @@ const Specs = () => {
     return (
         <div>
             <div className="md:flex justify-between py-8 px-12 hidden">
-                <code className="font-semibold">Fair Launch</code>
-                <code className="font-semibold">No Pre-Allocation</code>
-                <code className="font-semibold">No Presale</code>
-                <code className="font-semibold">No Taxes</code>
-                <code className="font-semibold">Community Funded</code>
+                <p className="font-semibold">Fair Launch</p>
+                <p className="font-semibold">No Pre-Allocation</p>
+                <p className="font-semibold">No Presale</p>
+                <p className="font-semibold">No Taxes</p>
+                <p className="font-semibold">Community Funded</p>
             </div>
             <div className="md:hidden justify-between pt-8 pb-4 px-12 flex">
-                <code className="font-semibold">Fair Launch</code>
-                <code className="font-semibold">No Pre-Allocation</code>
-                <code className="font-semibold">No Presale</code>
+                <p className="font-semibold">Fair Launch</p>
+                <p className="font-semibold">No Pre-Allocation</p>
+                <p className="font-semibold">No Presale</p>
             </div>
             <div className="md:hidden justify-between pb-8 px-12 flex">
-                <code className="font-semibold">No Taxes</code>
-                <code className="font-semibold">Community Funded</code>
+                <p className="font-semibold">No Taxes</p>
+                <p className="font-semibold">Community Funded</p>
             </div>
         </div>
     )
