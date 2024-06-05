@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white px-12 py-8 flex justify-between flex-col md:flex-row">
+        <footer className="bg-[#231f20] text-white px-12 py-8 flex justify-between flex-col md:flex-row">
             <div className="flex md:flex-col items-center justify-center">
                 <img
                     src="kaspa_logo_nacho.png"
