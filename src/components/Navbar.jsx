@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import { IoMenu } from 'react-icons/io5'
-import { FaDiscord, FaTelegram, FaXTwitter } from 'react-icons/fa6'
+import {
+    FaDiscord,
+    FaTelegram,
+    FaXTwitter,
+    FaRegNewspaper,
+} from 'react-icons/fa6'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -111,8 +116,10 @@ const Navbar = () => {
                             href="/Nacho_the_at_Whitepaper_Draft_2.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="flex items-center justify-center"
                         >
-                            Whitepaper
+                            <FaRegNewspaper className="h-6 w-6 mr-2" />
+                            <p>Whitepaper</p>
                         </a>
                     </li>
                 </ul>
