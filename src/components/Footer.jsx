@@ -20,25 +20,25 @@ const Footer = () => {
             <div className="my-8 md:my-0">
                 <ul className="space-y-4 flex flex-col items-center md:items-start">
                     <li>
-                        <a href="/" className="flex items-center">
+                        <a href="https://discord.gg/EB8VvA9DVf" className="flex items-center">
                             <FaDiscord className="w-6 h-6 mr-1" />
                             <p>Discord</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/" className="flex items-center">
+                        <a href="https://x.com/NachoWyborski" className="flex items-center">
                             <FaXTwitter className="w-6 h-6 mr-1" />
                             <p>Twitter</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/" className="flex items-center">
+                        <a href="https://t.me/nachothecat" className="flex items-center">
                             <FaTelegram className="w-6 h-6 mr-1" />
                             <p>Telegram</p>
                         </a>
                     </li>
                     <li>
-                        <a href="/" className="flex items-center">
+                        <a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" className="flex items-center">
                             <FaRegNewspaper className="w-6 h-6 mr-1" />
                             <p>Whitepaper</p>
                         </a>
