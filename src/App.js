@@ -1,51 +1,26 @@
-// src/App.js
-import React, { useState } from 'react';
-import TopBar from './components/TopBar';
-import { FaDiscord, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
-import './App.css';
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css' // Import AOS styles
+import Hero from './components/Hero'
+import Specs from './components/Specs'
+import About from './components/About'
+import Faq from './components/Faq'
+import Footer from './components/Footer'
 
-function App() {
-  const [collapsed, setCollapsed] = useState(true);
+const App = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+    }, [])
 
-  const toggleCollapse = () => {
-    setCollapsed(!collapsed);
-  };
-
-  return (
-    <div className="App">
-      <TopBar />
-      <div className="hero-section">
+    return (
         <div>
-          <h1>Welcome to My Website</h1>
-          <p>This is a sample text over a background image.</p>
+            <Hero />
+            <Specs />
+            <About />
+            <Faq />
+            <Footer />
         </div>
-      </div>
-      <div className="middle-section">
-        <button onClick={toggleCollapse}>
-          {collapsed ? 'Show More' : 'Show Less'}
-        </button>
-        {!collapsed && (
-          <div>
-            <p>This is the collapsed text that can be shown or hidden.</p>
-          </div>
-        )}
-      </div>
-      <div className="bottom-section">
-        <div className="social-links">
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-            <FaDiscord />
-          </a>
-          <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
-            <FaTelegramPlane />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FaTwitter />
-          </a>
-        </div>
-        <p>© 2024 My Website. All rights reserved.</p>
-      </div>
-    </div>
-  );
+    )
 }
 
-export default App;
+export default App
