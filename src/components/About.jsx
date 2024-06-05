@@ -20,8 +20,8 @@ const About = () => {
                     the KRC20 token standard.
                 </p>
                 <p className="text-3xl mt-4">
-                    Nacho is more than just a memecoin, it is proof of what is
-                    capable on the Kaspa network. With the Kasplex protocol
+                    Nacho is more than just a memecoin, it is proof of 
+                    what is possible on the Kaspa network. With the Kasplex protocol
                     coming soon, it’s time for Nacho to set the standard for
                     tokens on Kaspa.
                 </p>
