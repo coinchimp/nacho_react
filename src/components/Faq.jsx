@@ -78,10 +78,6 @@ const Faq = () => {
             answer: `To be determined. Once the KRC20 standard is live on the Kaspa Mainnet, it is highly likely we will see a DEX built and deployed. We will need to wait and see.`,
         },
         {
-            question: 'How much will Nacho cost?',
-            answer: `To be determined. Based on the Kasplex whitepaper, each mint of new KRC20 Tokens will require a gas fee of 1 KAS that will be paid to miners. Nacho will allow for batch mints of 28,700 Nacho tokens per mint. This is subject to change prior to finalization of the whitepaper..`,
-        },
-        {
             question: 'Does Nacho receive donations?',
             answer: (
                 <div className="flex justify-center">
