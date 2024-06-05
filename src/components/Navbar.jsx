@@ -15,7 +15,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="sticky top-0 bg-[#231f20] flex text-white items-center justify-between px-12 py-6">
+        <div className="sticky top-0 bg-[#231f20] flex text-white items-center justify-between px-12 py-6 z-10">
             <a href="/" className="flex items-center">
                 <img
                     src="kaspa_logo_nacho.png"
