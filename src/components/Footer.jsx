@@ -38,7 +38,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/Nacho_the_at_Whitepaper_Draft_2.pdf" className="flex items-center">
+                        <a href="/Nacho_the_kat_Whitepaper_240605.pdf" className="flex items-center">
                             <FaRegNewspaper className="w-6 h-6 mr-1" />
                             <p>Whitepaper</p>
                         </a>
