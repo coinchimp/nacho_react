@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { IoMenu } from 'react-icons/io5'
+import { FaDiscord, FaTelegram, FaXTwitter } from 'react-icons/fa6'
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,23 +24,43 @@ const Navbar = () => {
             <div className="hidden md:block">
                 <ul className="flex space-x-8 text-gray-300">
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">Home</a>
+                        <a
+                            href="https://discord.gg/EB8VvA9DVf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaDiscord className="h-6 w-6" />
+                        </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">About</a>
+                        <a
+                            href="https://t.me/nachothecat"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaTelegram className="h-6 w-6" />
+                        </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">Roadmap</a>
-                    </li>
-                    <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">F.A.Q</a>
+                        <a
+                            href="https://x.com/NachoWyborski"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaXTwitter className="h-6 w-6" />
+                        </a>
                     </li>
                 </ul>
             </div>
 
-            <button className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center">
+            <a
+                className="px-4 py-3 hidden rounded-full border-2 border-white md:flex items-center"
+                href="/Nacho_the_at_Whitepaper_Draft_2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Whitepaper
-            </button>
+            </a>
 
             {/* Mobile View */}
             <div className="md:hidden">
@@ -49,23 +70,50 @@ const Navbar = () => {
             <div
                 className={`${
                     isMenuOpen === true ? '' : 'hidden'
-                } absolute w-full top-20 left-0 right-0 text-center bg-[#231f20] py-8`}
+                } absolute w-full top-20 left-0 right-0 text-center bg-[#231f20] py-8 md:hidden`}
             >
                 <ul className="space-y-10 pt-8">
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">Home</a>
+                        <a
+                            href="https://discord.gg/EB8VvA9DVf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaDiscord className="h-6 w-6 mr-2" />
+                            <p>Discord</p>
+                        </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">About</a>
+                        <a
+                            href="https://t.me/nachothecat"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaTelegram className="h-6 w-6 mr-2" />
+                            <p>Telegram</p>
+                        </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">Roadmap</a>
+                        <a
+                            href="https://x.com/NachoWyborski"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center"
+                        >
+                            <FaXTwitter className="h-6 w-6 mr-2" />
+                            <p>Twitter</p>
+                        </a>
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">F.A.Q</a>
-                    </li>
-                    <li className="transition-all ease-in-out hover:text-white">
-                        <a href="/">Whitepaper</a>
+                        <a
+                            href="/Nacho_the_at_Whitepaper_Draft_2.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Whitepaper
+                        </a>
                     </li>
                 </ul>
             </div>

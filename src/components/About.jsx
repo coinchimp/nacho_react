@@ -34,27 +34,47 @@ const About = () => {
                         standard for tokens on Kaspa.
                     </p>
                     <div className="mt-4 hidden md:flex space-x-4">
-                        <button className="px-4 py-3 rounded-full border-2 border-black flex items-center">
+                        <a
+                            className="px-4 py-3 rounded-full border-2 border-black flex items-center"
+                            href="https://discord.gg/EB8VvA9DVf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaDiscord className="w-6 h-6 mr-1" />
                             Join Discord
-                        </button>
-                        <button className="px-4 py-3 rounded-full border-2 border-black flex items-center">
+                        </a>
+                        <a
+                            className="px-4 py-3 rounded-full border-2 border-black flex items-center"
+                            href="https://x.com/NachoWyborski"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaXTwitter className="w-6 h-6 mr-1" />
                             Follow Twitter
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div className="md:hidden my-4 space-y-4 flex flex-col items-center">
-                <button className="px-4 py-3 rounded-full border-2 border-black flex items-center">
+                <a
+                    className="px-4 py-3 rounded-full border-2 border-black flex items-center"
+                    href="https://discord.gg/EB8VvA9DVf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <FaDiscord className="w-6 h-6 mr-1" />
                     Join Discord
-                </button>
-                <button className="px-4 py-3 rounded-full border-2 border-black flex items-center">
+                </a>
+                <a
+                    className="px-4 py-3 rounded-full border-2 border-black flex items-center"
+                    href="https://x.com/NachoWyborski"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <FaXTwitter className="w-6 h-6 mr-1" />
                     Follow Twitter
-                </button>
+                </a>
             </div>
         </div>
     )
