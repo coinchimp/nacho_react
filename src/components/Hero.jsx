@@ -7,7 +7,8 @@ const Hero = () => {
             <Navbar />
             <div
                 id="hero"
-                className="p-12 text-center flex flex-col justify-center items-center bg-[#231f20] bg-opacity-70 h-[70%] md:w-[40%] mx-auto text-white absolute left-0 right-0 top-[55%] translate-y-[-50%] rounded-3xl"
+                className="p-12 text-center mt-8 flex flex-col justify-center items-center bg-[#231f20] bg-opacity-70 h-[70%] md:w-[40%] mx-auto text-white rounded-3xl"
+                data-aos="fade-up"
             >
                 <img
                     src="kaspa_logo_nacho_512.png"

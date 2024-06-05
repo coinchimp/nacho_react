@@ -3,7 +3,11 @@ import { FaDiscord, FaXTwitter } from 'react-icons/fa6'
 
 const About = () => {
     return (
-        <div className="py-12 px-12 md:px-28 bg-[#65c0b1]" id="about">
+        <div
+            className="py-12 px-12 md:px-28 bg-[#65c0b1]"
+            id="about"
+            data-aos="fade-up"
+        >
             <div className="mt-8 md:mt-0">
                 <p className="text-2xl">
                     <span className="font-bold text-3xl mr-3">

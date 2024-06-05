@@ -15,7 +15,7 @@ const Footer = () => {
                     alt="Nacho"
                     className="h-12 w-12"
                 />
-                <p className="md:mt-4 hero-text ml-2 md:ml-0">Nacho the 𐤊at</p>
+                <p className="md:mt-4 ml-2 md:ml-0">Nacho the 𐤊at</p>
             </div>
             <div className="my-8 md:my-0">
                 <ul className="space-y-4 flex flex-col items-center md:items-start">

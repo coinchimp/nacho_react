@@ -92,9 +92,7 @@ const Faq = () => {
     ]
 
     return (
-        <div className="py-12 px-12 md:px-28" id="about">
-            <p className="hero-text text-center text-5xl mb-8">F.A.Qs</p>
-
+        <div className="py-12 px-12 md:px-28" id="about" data-aos="fade-up">
             <div>
                 {faqItems.map((item, index) => (
                     <FaqItem
