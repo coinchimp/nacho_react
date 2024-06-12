@@ -13,7 +13,7 @@ const FaqItem = ({ question, answer }) => {
                 onClick={toggle}
                 className="flex justify-between items-center w-full text-left"
             >
-                <span className="text-lg font-medium text-gray-900">
+                <span className="text-lg font-medium dark:text-white text-gray-900">
                     {question}
                 </span>
                 <svg
@@ -33,7 +33,11 @@ const FaqItem = ({ question, answer }) => {
                     />
                 </svg>
             </button>
-            {isOpen && <p className="mt-2 text-gray-700">{answer}</p>}
+            {isOpen && (
+                <p className="mt-2 dark:text-gray-200 text-gray-700">
+                    {answer}
+                </p>
+            )}
         </div>
     )
 }
