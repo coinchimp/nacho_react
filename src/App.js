@@ -13,7 +13,7 @@ const App = () => {
     }, [])
 
     return (
-        <div>
+        <div className="dark:bg-[#231f20] dark:text-white">
             <Hero />
             <Specs />
             <About />
