@@ -25,6 +25,9 @@ const About = () => {
                     coming soon, it’s time for Nacho to set the standard for
                     tokens on Kaspa.
                 </p>
+                <p className="text-3xl mt-4">
+                    Official KRC20 Ticker: <span className="font-bold text-4xl mr-3">NACHO</span>
+                </p>                
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
                     <a
                         className="px-4 py-3 rounded-full border-2 border-black dark:border-white flex items-center"

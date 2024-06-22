@@ -20,6 +20,12 @@ const Hero = () => {
                 <p className="text-3xl">
                     Inspired by Shai Wyborski's pet cat Nacho
                 </p>
+                <p>
+                    &nbsp;
+                </p>
+                <p className="text-3xl">
+                    Ticker: NACHO
+                </p>                
             </div>
         </div>
     )
