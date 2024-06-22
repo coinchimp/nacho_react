@@ -26,7 +26,7 @@ const About = () => {
                     tokens on Kaspa.
                 </p>
                 <p className="text-3xl mt-4">
-                    Official KRC20 Tiker: <span className="font-bold text-4xl mr-3">NACHO</span>
+                    Official KRC20 Ticker: <span className="font-bold text-4xl mr-3">NACHO</span>
                 </p>                
                 <div className="mt-6 hidden md:flex md:justify-center space-x-4">
                     <a
