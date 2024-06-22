@@ -13,8 +13,12 @@ const Faq = () => {
         },
         {
             question: 'What does mint mean?',
-            answer: 'When a token is minted, it is generated and added to the total supply, making it available for use within the Kaspa ecosystem. The token will be available to mint on a platform being developed by KRC-20 community.',
+            answer: 'When a token is minted, it is generated and added to the total supply, making it available for use within the Kaspa ecosystem. The token will be available to mint from any KRC20 compatible wallet like Kasware. Official ticker for Nacho is NACHO, confirmed by Kasplex on June 20.',
         },
+        {
+            question: 'Does Nacho have an official ticker?',
+            answer: `Yes, it does. Official ticker for Nacho is NACHO, confirmed by Kasplex on June 20.`,
+        },        
         {
             question: 'Will Nacho offer airdrops?',
             answer: `No. Fair launch won't make it possible.`,
