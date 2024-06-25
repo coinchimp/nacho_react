@@ -12,7 +12,7 @@ const Tutorials = () => {
                     <span className="font-bold text-3xl md:text-4xl mr-3">
                         Easy Learning with Nacho
                     </span>
-                    For the lazy readers, here's some material to ease your pain. Dive into quick tutorials about Nacho the cat and the KRC20 standard in Kasplex.
+                    Prefer a video? Dive into quick tutorials about Nacho the cat and the KRC20 standard in Kasplex.
                 </p>
 
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-8">
