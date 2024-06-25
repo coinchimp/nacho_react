@@ -7,6 +7,7 @@ import About from './components/About'
 import Faq from './components/Faq'
 import Tutorials from './components/Tutorials'
 import Footer from './components/Footer'
+import SocialMedia from './components/SocialMedia'
 
 const App = () => {
     useEffect(() => {
@@ -20,6 +21,7 @@ const App = () => {
             <About />
             <Faq />
             <Tutorials />
+            <SocialMedia />
             <Footer />
         </div>
     )
