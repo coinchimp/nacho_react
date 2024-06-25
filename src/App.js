@@ -7,7 +7,7 @@ import About from './components/About'
 import Faq from './components/Faq'
 import Tutorials from './components/Tutorials'
 import Footer from './components/Footer'
-//import SocialMedia from './components/SocialMedia'
+import MusicVideos from './components/MusicVideos'
 import TokenProgress from './components/TokenProgress'
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
             <About />
             <Faq />
             <Tutorials />
+            <MusicVideos />
             <Footer />
         </div>
     )
