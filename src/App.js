@@ -7,7 +7,8 @@ import About from './components/About'
 import Faq from './components/Faq'
 import Tutorials from './components/Tutorials'
 import Footer from './components/Footer'
-import SocialMedia from './components/SocialMedia'
+//import SocialMedia from './components/SocialMedia'
+import TokenProgress from './components/TokenProgress'
 
 const App = () => {
     useEffect(() => {
@@ -18,10 +19,10 @@ const App = () => {
         <div className="dark:bg-[#231f20] dark:text-white">
             <Hero />
             <Specs />
+            <TokenProgress />
             <About />
             <Faq />
             <Tutorials />
-            <SocialMedia />
             <Footer />
         </div>
     )
