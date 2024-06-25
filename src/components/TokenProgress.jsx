@@ -10,8 +10,10 @@ const TokenProgress = () => {
                 const response = await fetch('https://tn11api.kasplex.org/v1/krc20/token/nacho');
                 const data = await response.json();
                 const tokenData = data.result[0];
-                setMinted(Number(tokenData.minted));
-                setMax(Number(tokenData.max));
+                const mintedValue = Number(tokenData.minted) / Math.pow(10, Number(tokenData.dec));
+                const maxValue = Number(tokenData.max) / Math.pow(10, Number(tokenData.dec));
+                setMinted(mintedValue);
+                setMax(maxValue);
             } catch (error) {
                 console.error('Error fetching token data:', error);
             }
@@ -42,7 +44,7 @@ const TokenProgress = () => {
                         ></div>
                     </div>
                     <p className="mt-2 text-xl md:text-2xl text-center">
-                        {progress.toFixed(2)}% of NACHO tokens have been minted.
+                        {progress.toFixed(2)}% ({minted.toLocaleString()}) of NACHO tokens have been minted.
                     </p>
                 </div>
             </div>
