@@ -33,7 +33,7 @@ const TokenProgress = () => {
             <div className="mt-8 md:mt-0">
                 <p className="text-xl md:text-2xl">
                     <span className="font-bold text-3xl md:text-4xl mr-3">
-                        Token Minting Progress
+                        Token Minting Progress [testnet11]
                     </span>
                 </p>
                 <div className="mt-6">
