@@ -7,7 +7,7 @@ const TokenProgress = () => {
     useEffect(() => {
         const fetchTokenData = async () => {
             try {
-                const response = await fetch('https://tn11api.kasplex.org/v1/krc20/token/nacho');
+                const response = await fetch('https://api.kasplex.org/v1/krc20/token/nacho');
                 const data = await response.json();
                 const tokenData = data.result[0];
                 const mintedValue = Number(tokenData.minted) / Math.pow(10, Number(tokenData.dec));
@@ -33,7 +33,7 @@ const TokenProgress = () => {
             <div className="mt-8 md:mt-0">
                 <p className="text-xl md:text-2xl">
                     <span className="font-bold text-3xl md:text-4xl mr-3">
-                        Token Minting Progress [testnet11]
+                        Token Minting Progress
                     </span>
                 </p>
                 <div className="mt-6">
