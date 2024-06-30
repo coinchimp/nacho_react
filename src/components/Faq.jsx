@@ -9,7 +9,7 @@ const Faq = () => {
         },
         {
             question: 'When and how can I buy Nacho?',
-            answer: 'We are waiting for KRC-20 to be launched to provide a date. Nacho will be minted. You will need to mint your tokens.',
+            answer: 'Nacho will be minted.  You will need to mint your tokens from within the Kasware Wallet. NACHO will launch on June 30, 2024 @ 10:30am New York City time.',
         },
         {
             question: 'What does mint mean?',
