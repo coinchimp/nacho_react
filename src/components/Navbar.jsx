@@ -113,7 +113,7 @@ const Navbar = () => {
                     </li>
                     <li className="transition-all ease-in-out hover:text-white">
                         <a
-                            href="/Nacho_the_at_Whitepaper_Draft_2.pdf"
+                            href="/Nacho_the_kat_Whitepaper_240605.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center"
